@@ -1,0 +1,52 @@
+.box-shadow {
+  border: 1px solid;
+  height: 40vh;
+  width: 40vh;
+  box-shadow: 4px 4px 10px red;
+  text-shadow: 2px 2px rgb(74, 235, 59);
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  transition: 3s;
+}
+
+.box-shadow:hover {
+  transform: rotate(360deg);
+}
+
+.box {
+  border: 1px solid;
+  height: 40vh;
+  width: 40vh;
+  box-shadow: 6px 6px 5px rgb(10, 236, 66);
+  text-shadow: 2px 2px rgb(235, 144, 59);
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  transition: 1.5s ease;
+}
+
+.box:hover {
+  width: 500px;
+}
+
+.box1 {
+  border: 1px solid;
+  height: 40vh;
+  width: 40vh;
+  box-shadow: 6px 6px 5px rgb(59, 10, 236);
+  text-shadow: 2px 2px rgb(231, 84, 212);
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  left: 600px;
+  /* transition-property: width; */
+  transition-duration: 3s;
+  transition-delay: 1.5s;
+}
+
+.box1:hover {
+  width: 400px;
+}
